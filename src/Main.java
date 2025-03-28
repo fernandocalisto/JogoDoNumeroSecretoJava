@@ -9,8 +9,6 @@ public class Main {
         int chute = 0;
         int tentativas = 1;
 
-        System.out.println(numeroSecreto);
-
         System.out.println("Bem-vindo ao Jogo do Número Secreto! Você tem 5 tentativas para acertar o número entre 0 e 100!");
 
         while (true) {
