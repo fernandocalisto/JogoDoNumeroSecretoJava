@@ -25,6 +25,12 @@ public class Main {
                 System.out.println("As suas chances acabaram :( O número Secreto era " + numeroSecreto);
                 break;
             }
+            if (chute > numeroSecreto) {
+                System.out.println("O número inserido é maior que o número secreto!");
+            }
+            else {
+                System.out.println("O número inserido é menor que o número secreto!");
+            }
             tentativas++;
 
         }
